@@ -34,13 +34,22 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Semantic HTML helps search engines and alternative display modes for humans like ereaders for the blind more easily interpret content. 
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
 
 3. What are the 4 areas of the box model?
 
+Border, Padding, Content, Margin
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+It sets elements vertical alignment on center 
+
 5. Explain why git is valuable to a team of developers.
+
+git lets you version code. It lets maintainers agree on what the most current version is. It makes it easy for anyone to submit their changes, and compare different versions of code to each other. It makes it easier for developers to resolve conflicts while working on the same code. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -48,11 +57,11 @@ You are expected to be able to answer all these questions. Your responses contri
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add PM as collaborator on Github.
-- [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
-- [ ] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on this Branch, committing changes regularly.
+- [X] Create a forked copy of this project.
+- [X] Add PM as collaborator on Github.
+- [X] Clone your OWN version of Repo (Not Lambda's by mistake!).
+- [X] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
+- [X] Implement the project on this Branch, committing changes regularly.
 - [ ] Push commits: git push origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
@@ -71,8 +80,8 @@ Your finished project must include all of the following requirements:
 
 [Review the provided design file for the home page](design-files/home.png).  Notice the navigation and header images are missing.
 
-* [ ] Build the HTML and CSS to create the missing navigation and header.
-* [ ] Link the `About` navigation item to the [about.html](about.html) page
+* [X] Build the HTML and CSS to create the missing navigation and header.
+* [X] Link the `About` navigation item to the [about.html](about.html) page
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
