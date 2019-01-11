@@ -68,12 +68,14 @@ p {
 
 
 nav {
+    width: 800px;
     /* width: 60%; */
     padding: 20px 2%;
     display: flex;
     justify-content: space-around;
     flex-direction: row;
     align-items: center;
+    margin: 0 auto;
 }
 
 nav a {    
