@@ -38,6 +38,7 @@ Semantic HTML helps search engines and alternative display modes for humans like
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
+!ANSWER THIS!
 
 3. What are the 4 areas of the box model?
 
@@ -62,7 +63,7 @@ Follow these steps to set up and work on your project:
 - [X] Clone your OWN version of Repo (Not Lambda's by mistake!).
 - [X] Create a new Branch on the clone: git checkout -b `<firstName-lastName>`.
 - [X] Implement the project on this Branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [X] Push commits: git push origin `<firstName-lastName>`.
  
 Follow these steps for completing your project.
 
@@ -85,24 +86,24 @@ Your finished project must include all of the following requirements:
 
 You will also notice there are 10 boxes on the home page that need background colors.  Use this list below to correctly style each box:
 
-* [ ] box1: `teal`
-* [ ] box2: `gold`
-* [ ] box3: `cadetblue`
-* [ ] box4: `coral`
-* [ ] box5: `crimson`
-* [ ] box6: `forestgreen`
-* [ ] box7: `darkorchid`
-* [ ] box8: `hotpink`
-* [ ] box9: `indigo`
-* [ ] box10: `dodgerblue`
+* [X] box1: `teal`
+* [X] box2: `gold`
+* [X] box3: `cadetblue`
+* [X] box4: `coral`
+* [X] box5: `crimson`
+* [X] box6: `forestgreen`
+* [X] box7: `darkorchid`
+* [X] box8: `hotpink`
+* [X] box9: `indigo`
+* [X] box10: `dodgerblue`
 
 ### About Page
 
 [Review the provided design file for the about page](design-files/about.png). You have been provided the HTML wrapper, footer, and page content for the about page. Create the rest of the missing HTML and CSS to match the design file.
 
-* [ ] Copy and paste your home page navigation and header into the about page
-* [ ] Update the header image with the about page image
-* [ ] Link the `Home` navigation item back to the `index.html` page.
+* [X] Copy and paste your home page navigation and header into the about page
+* [X] Update the header image with the about page image
+* [X] Link the `Home` navigation item back to the `index.html` page.
 * [ ] Build the rest of the about page layout to match the design
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
