@@ -49,6 +49,8 @@ table {
 
 * {
     box-sizing: border-box;
+    margin: 0;
+  padding: 0;
 }
 
 html, body {
@@ -84,8 +86,6 @@ nav a {
     text-decoration: none;
 }
 
-nav img {
-}
 
 .container {
     width: 800px;
@@ -132,38 +132,6 @@ nav img {
     justify-content: center;
 }
 
-
-.box1 {
-    background-color: teal;
-}
-.box2 {
-    background-color: gold;
-}
-.box3 {
-    background-color: cadetblue;
-}
-.box4 {
-    background-color: coral;
-}
-.box5 {
-    background-color: crimson;
-}
-.box6 {
-    background-color:forestgreen;
-}
-.box7 {
-    background-color:darkorchid;
-}
-.box8 {
-    background-color:hotpink;
-}
-.box9 {
-    background-color:indigo;
-}
-.box10 {
-    background-color:dodgerblue;
-}
-
 .bottom-content {   
     display: flex;
     margin: 0 2% 20px;
@@ -208,20 +176,24 @@ footer nav a {
 .middle {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: center;
+    
 }
+
 
 .sub-container {
     border-bottom: 1px dotted black;
     padding-top: 20px;
 }
+
 .sub-container h2 {
-    margin-top: 10px;
-}
-.sub-container p {
-width:40%;
+    width: 49px;
 }
 
+.sub-container p {
+    width: 49%;
+}
+ 
 .sub-container button {
     border: 1px solid black;
     background: white;
@@ -231,3 +203,5 @@ width:40%;
     border-radius: 5px;
     margin: 15px 0;
 }
+
+
