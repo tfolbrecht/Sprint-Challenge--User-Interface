@@ -176,18 +176,12 @@ footer nav a {
 .middle {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    
+    justify-content: space-around;
 }
-
 
 .sub-container {
     border-bottom: 1px dotted black;
     padding-top: 20px;
-}
-
-.sub-container h2 {
-    width: 49px;
 }
 
 .sub-container p {
@@ -195,7 +189,7 @@ footer nav a {
 }
  
 .sub-container button {
-    border: 1px solid black;
+    border: 3px solid black;
     background: white;
     color: black;
     width: 30%;
@@ -204,4 +198,33 @@ footer nav a {
     margin: 15px 0;
 }
 
-
+.box1 {
+    background-color: teal;
+}
+.box2 {
+    background-color: gold;
+}
+.box3 {
+    background-color: cadetblue;
+}
+.box4 {
+    background-color: coral;
+}
+.box5 {
+    background-color: crimson;
+}
+.box6 {
+    background-color:forestgreen;
+}
+.box7 {
+    background-color:darkorchid;
+}
+.box8 {
+    background-color:hotpink;
+}
+.box9 {
+    background-color:indigo;
+}
+.box10 {
+    background-color:dodgerblue;
+}
