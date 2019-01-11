@@ -72,12 +72,20 @@ p {
 nav {
     width: 800px;
     /* width: 60%; */
-    padding: 20px 2%;
+    padding: 20px 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     flex-direction: row;
     align-items: center;
     margin: 0 auto;
+}
+
+nav .links {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: grey; */
+    border: 1px solid red;
 }
 
 nav a {    
@@ -96,7 +104,6 @@ nav a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
@@ -132,6 +139,7 @@ nav a {
     justify-content: center;
 }
 
+
 .bottom-content {   
     display: flex;
     margin: 0 2% 20px;
@@ -166,26 +174,26 @@ footer nav a {
 }
 
 
-/*my additional css*/
-
 .jumbo {
     width: 100%;
     margin-bottom: 20px;
 }
 
 .middle {
+    width: 800px;
+    margin: auto;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
 }
 
 .sub-container {
     border-bottom: 1px dotted black;
     padding-top: 20px;
+    width: 48%;
 }
 
 .sub-container p {
-    width: 49%;
+    padding: 0 1%;
 }
  
 .sub-container button {
