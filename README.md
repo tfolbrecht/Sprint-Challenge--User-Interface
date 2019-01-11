@@ -38,7 +38,8 @@ Semantic HTML helps search engines and alternative display modes for humans like
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-!ANSWER THIS!
+```display: block``` is manipulated with the box model areas
+Inline elements can be sit inside of other containers, blocks can not. 
 
 3. What are the 4 areas of the box model?
 
