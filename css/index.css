@@ -69,16 +69,20 @@ p {
 
 nav {
     /* width: 60%; */
+    padding: 20px 2%;
     display: flex;
     justify-content: space-around;
+    flex-direction: row;
     align-items: center;
-    padding: 20px 2%;
-    font-size: 14px;
 }
 
-nav a {
+nav a {    
     color: black;
+    font-size: 14px;
     text-decoration: none;
+}
+
+nav img {
 }
 
 .container {
